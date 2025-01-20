@@ -14,5 +14,5 @@ let media;
 media = somma / 5;
 console.log(media);
 
-console.log('il valore della somma equivale a ${somma}, la media equivale a ${media}');
+console.log(`il valore della somma equivale a ${somma}, la media equivale a ${media}`);
 
