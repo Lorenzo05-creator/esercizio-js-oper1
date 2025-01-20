@@ -11,11 +11,8 @@ let somma;
  console.log(somma);
 
 let media;
-media = (num1 + num2 + num3 + num4 + num5) / 5;
+media = somma / 5;
 console.log(media);
 
-let str1 = 'la somma tra i numeri equivale a ';
-let str2 = ' e la media equivale a ';
+console.log('il valore della somma equivale a ${somma}, la media equivale a ${media}');
 
-valore = str1 + somma + str2 + media;
-console.log(valore);
